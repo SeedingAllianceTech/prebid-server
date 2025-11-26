@@ -66,6 +66,15 @@
               "id": "test-imp-id"
             }
           ],
+          "site": {
+            "publisher": {
+              "ext": {
+                "prebid": {
+                  "publisherId": "12345"
+                }
+              }
+            }
+          },
           "ext": {
             "prebid": {
               "currency": {
@@ -78,7 +87,8 @@
               }
             }
           }
-        }
+        },
+        "impIDs":["test-imp-id"]
       },
       "mockResponse": {
         "status": 200,

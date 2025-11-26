@@ -91,7 +91,8 @@
           "user": {
             "buyeruid": "test-buyer-user-id"
           }
-        }
+        },
+        "impIDs":["3"]
       },
       "mockResponse": {
         "status": 200,
@@ -106,7 +107,8 @@
               "height": 60,
               "ad": "advert",
               "crid": "wasd",
-              "mtype": "banner"
+              "mtype": "banner",
+              "adomain": ["test.com"]
             }
           ]
         }
@@ -125,7 +127,8 @@
           "w": 468,
           "h": 60,
           "crid": "wasd",
-          "mtype": 1
+          "mtype": 1,
+          "adomain": ["test.com"]
         },
         "type": "banner"
       }]
